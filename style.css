@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  /* background-color: #111;
+  background-blend-mode: multiply;
+  cursor: none;
+  background-position: center center; */
+}
+
+svg {
+  background: #fff;
+  width: 100vw;
+  height: auto;
+  cursor: none;
+  position: relative;
+  overflow: scroll;
+}
+
+.magnifier-container {
+  position: relative;
+}
+
+.magnifier-glass {
+  background-color: transparent;
+  cursor: none;
+  height: inherit;
+  position: relative;
+
+  box-shadow: inset -20px 0 40px 0px rgba(255, 255, 255, 0.25);
+
+  position: absolute;
+}
+
+/*------ styling from the original SVG file -----*/
+
+.cls-1 {
+  opacity: 0.6;
+}
+.cls-2 {
+  fill: #a2d9f7;
+}
+.cls-10,
+.cls-20,
+.cls-21,
+.cls-3,
+.cls-6,
+.cls-8 {
+  fill: none;
+}
+.cls-3 {
+  stroke: #a2d9f7;
+  stroke-width: 1.32px;
+}
+.cls-21,
+.cls-3 {
+  stroke-linecap: round;
+}
+.cls-10,
+.cls-20,
+.cls-21,
+.cls-3,
+.cls-6,
+.cls-7,
+.cls-8 {
+  stroke-miterlimit: 10;
+}
+.cls-5,
+.cls-7 {
+  fill: #fff;
+}
+.cls-6 {
+  stroke: #fdc900;
+}
+.cls-10,
+.cls-20,
+.cls-21,
+.cls-6,
+.cls-8 {
+  stroke-width: 5.3px;
+}
+.cls-7 {
+  stroke: #000;
+  stroke-width: 0.79px;
+}
+.cls-8 {
+  stroke: #c9c8c8;
+}
+.cls-9 {
+  fill: #c9c8c8;
+}
+.cls-10 {
+  stroke: #007f5d;
+}
+.cls-12 {
+  isolation: isolate;
+}
+.cls-13 {
+  fill: #1d1d1b;
+}
+.cls-14 {
+  fill: #b7182d;
+}
+.cls-15 {
+  fill: #007f5d;
+}
+.cls-17 {
+  fill: #fcc900;
+}
+.cls-19 {
+  fill: #e5212b;
+}
+.cls-20,
+.cls-21 {
+  stroke: #07a3bf;
+}
+.cls-22 {
+  fill: #0ca3bf;
+}
+.cls-23 {
+  fill: #dcdcdc;
+}
